@@ -15,10 +15,14 @@ body {
 form {
   background-color: #fff;
   width: 600px;
-  padding: 100px;
+  padding: 80px;
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+form p {
+	margin:  5px auto;
 }
 label {
   font-size: 16px;
